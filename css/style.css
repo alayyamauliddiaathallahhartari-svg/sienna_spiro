@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.polkadot-bg {
+    background-color: #f0fdf4;
+    background-image: radial-gradient(#ff5722 18%, transparent 19%), radial-gradient(#10b981 18%, transparent 19%);
+    background-size: 32px 32px;
+    background-position: 0 0, 16px 16px;
+}
+
+.polkadot-dark {
+    background-color: #053e2e;
+    background-image: radial-gradient(#ff5722 20%, transparent 21%), radial-gradient(#0f9f6e 20%, transparent 21%);
+    background-size: 40px 40px;
+    background-position: 0 0, 20px 20px;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(12px);
+    border: 2px solid rgba(255, 87, 34, 0.25);
+    box-shadow: 0 10px 30px -10px rgba(5, 62, 46, 0.15);
+}
+
+.page-shell {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+.content-width {
+    width: min(100% - 2rem, 72rem);
+    margin-inline: auto;
+}
+
+.page-heading {
+    border-bottom: 4px solid #ff5722;
+}
+
+@media (max-width: 767px) {
+    .page-shell {
+        padding-top: 8rem;
+    }
+}
